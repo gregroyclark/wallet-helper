@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from './components/Header.js'
 import { Balance } from './components/Balance.js'
 import { Cashflow } from './components/Cashflow.js'
-import { Transactions } from './components/Transactions'
+import { TransactionList } from './components/TransactionList'
 import { AddTransaction } from './components/AddTransaction.js'
 
 import { GlobalProvider } from './context/GlobalState'
@@ -16,7 +16,7 @@ function App() {
       <div className="container">
         <Balance />
         <Cashflow />
-        <Transactions />
+        <TransactionList />
         <AddTransaction />
       </div>
     </GlobalProvider>
