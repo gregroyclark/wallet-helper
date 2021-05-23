@@ -27,7 +27,7 @@
   <hr>
 
   <div id="demo"><h2>Demo</h2></div>
-  <p><img src=""></p>
+  <p><img src="assets/WalletHelper.gif"></p>
 
   <hr>
 
