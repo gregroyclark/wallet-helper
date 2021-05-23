@@ -5,11 +5,13 @@ import { Cashflow } from './components/Cashflow.js'
 import { Transactions } from './components/Transactions'
 import { AddTransaction } from './components/AddTransaction.js'
 
+import { GlobalProvider } from './context/GlobalState'
+
 import './App.css';
 
 function App() {
   return (
-    <div>
+    <GlobalProvider>
       <Header />
       <div className="container">
         <Balance />
@@ -17,7 +19,7 @@ function App() {
         <Transactions />
         <AddTransaction />
       </div>
-    </div>
+    </GlobalProvider>
   );
 }
 
